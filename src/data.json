@@ -1,0 +1,17 @@
+
+{
+    "videos": [
+        {
+            "id": "id",
+            "name": "Video",
+            "src": "default.mp4"
+        }
+    ],
+    "images": [
+        {
+            "id": "id",
+            "name": "Image",
+            "src": "default.jpg"
+        }
+    ]
+}

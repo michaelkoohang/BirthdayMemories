@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: 'Grava Display';
+  src: url('../fonts/Grava\ Display\ Medium.otf');
+}
+
+.screen {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 auto;
+  min-height: 100%;
+  font-size: 18px;
+  position: relative;  
+}
+
+.header h1 {
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #2A2A2A;
+  margin: 0;
+}
+
+.birthdayAnimation {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 18px;
+  top: 18px;
+}
+
+.confettiAnimation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -999;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  z-index: 999;
+  position: relative;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 414px) {
+  .birthdayAnimation {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    right: 36px;
+    top: 48px;
+  }
+}
