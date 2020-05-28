@@ -20,7 +20,7 @@ class Image extends Component {
       <div className="imageCard noselect" id={this.props.info.id}>
           <img src={require('../images/' + this.props.info.src)}></img>
           <div className="imageCardFooter">
-            <h2 className="imageName">{this.props.info.name}</h2>
+            <h2 className="imageName">{this.props.info.text}</h2>
             <div className="image">
               <Lottie className="noselect" options={cameraOptions}
               />

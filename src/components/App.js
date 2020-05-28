@@ -1,6 +1,5 @@
 
 
-// UncontrolledLottie.jsx
 import React, { Component } from 'react'
 import Lottie from 'react-lottie'
 import birthdayAnimation from '../lotties/birthday.json'
@@ -30,8 +29,8 @@ class App extends Component {
       <div>
         <div className="screen">
           <div className="header">
-          <h1 id="happyBirthday">Happy \Number\ <br/>
-                Birthday <br/>\Name\!
+          <h1 id="happyBirthday">Happy {data.info.age} <br/>
+                Birthday <br/>{data.info.name}!
           </h1>
           
         </div>
@@ -40,15 +39,19 @@ class App extends Component {
           />  
         </div>
         <div className="content">
-          {data.videos.map(obj => (<Video info={obj}></Video>))}
-          {data.images.map(obj => (<Image info={obj}></Image>))}
+          { data.videos !== 0 &&
+            data.videos.map(obj => (<Video info={obj}></Video>))
+          }
+          { data.images !== 0 &&
+            data.images.map(obj => (<Image info={obj}></Image>))
+          }
         </div>
       </div>
       <div className="confettiAnimation">
         <Lottie options={confettiOptions}/>
       </div> 
       <div className="footer">
-        <h2 className="noselect">Made with <span role="img">❤️</span> by \name\</h2>
+        <h2 className="noselect">Made with <span role="img">❤️</span> by {data.info.author}</h2>
       </div>
       </div>
     )

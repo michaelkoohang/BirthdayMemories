@@ -1,17 +1,22 @@
 
 {
-    "videos": [
-        {
-            "id": "id",
-            "name": "Video",
-            "src": "default.mp4"
-        }
-    ],
-    "images": [
-        {
-            "id": "id",
-            "name": "Image",
-            "src": "default.jpg"
-        }
-    ]
+  "info": {
+    "age": "<age>",
+    "name": "<name>",
+    "author": "<author>"
+  },
+  "videos": [
+    {
+      "id": "id",
+      "text": "Video",
+      "src": "default.mp4"
+    }
+  ],
+  "images": [
+    {
+      "id": "id",
+      "text": "Image",
+      "src": "default.jpg"
+    }
+  ]
 }
