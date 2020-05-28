@@ -19,6 +19,8 @@
   min-height: 100%;
   font-size: 18px;
   position: relative;  
+  pointer-events: none;
+  user-select: none;
 }
 
 .header h1 {
@@ -30,10 +32,16 @@
 
 .birthdayAnimation {
   position: absolute;
+  pointer-events: none;
+  user-select: none;
   width: 150px;
   height: 150px;
   right: 18px;
   top: 18px;
+}
+
+.noselect {
+  user-select: none;
 }
 
 .confettiAnimation {
@@ -42,6 +50,7 @@
   height: 100%;
   top: 0;
   z-index: -999;
+  pointer-events: none;
 }
 
 .content {

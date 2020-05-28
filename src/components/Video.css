@@ -23,10 +23,6 @@
     margin-top: 1.5em;
 }
 
-.videoCard:active {
-    transform: scale(1.02, 1.02);
-}
-
 .videoCardFooter {
     padding: 0 1.5em;
     display: flex;

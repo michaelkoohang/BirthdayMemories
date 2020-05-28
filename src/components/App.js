@@ -48,7 +48,7 @@ class App extends Component {
         <Lottie options={confettiOptions}/>
       </div> 
       <div className="footer">
-        <h2>Made with <span role="img">❤️</span> by \name\</h2>
+        <h2 className="noselect">Made with <span role="img">❤️</span> by \name\</h2>
       </div>
       </div>
     )

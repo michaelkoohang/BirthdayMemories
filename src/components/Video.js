@@ -22,12 +22,12 @@ class Video extends Component {
     };
 
     return(
-      <div className="videoCard" onClick={this.playPause.bind(this, this.props.info.id)}>
+      <div className="videoCard noselect" onClick={this.playPause.bind(this, this.props.info.id)}>
           <video src={require('../videos/' + this.props.info.src) + "#t=0.1"} id={this.props.info.id}></video>
           <div className="videoCardFooter">
             <h2 className="videoName">{this.props.info.name}</h2>
             <div className="play">
-              <Lottie options={videoOptions}
+              <Lottie className="noselect" options={videoOptions}
               />
             </div>
           </div>

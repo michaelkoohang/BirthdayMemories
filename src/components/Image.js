@@ -17,12 +17,12 @@ class Image extends Component {
     };
 
     return(
-      <div className="imageCard" id={this.props.info.id}>
+      <div className="imageCard noselect" id={this.props.info.id}>
           <img src={require('../images/' + this.props.info.src)}></img>
           <div className="imageCardFooter">
             <h2 className="imageName">{this.props.info.name}</h2>
             <div className="image">
-              <Lottie options={cameraOptions}
+              <Lottie className="noselect" options={cameraOptions}
               />
             </div>
           </div>
