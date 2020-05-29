@@ -1,6 +1,9 @@
 # Birthday Memories 🥳
 Share photos and videos of you and your best friends / loved ones on their birthday with this simple React App.
 
+![alt text](/screenshots/mobile-1.png "Mobile screenshot 1") | ![alt text](/screenshots/desktop.png "Mobile screenshot 2") | ![alt text](/screenshots/mobile-2.png "Desktop screenshot") 
+--- | --- | ---
+
 ## Requirements 📄
 - [Node.js](https://nodejs.org/en/download/)
 
@@ -142,3 +145,7 @@ So if you want your friend or loved one to be able to see it on their phone, you
 To get set up with Heroku and Node.js, follow [this tutorial](https://devcenter.heroku.com/articles/getting-started-with-nodejs). The introduction and setup sections should suffice.
 
 Then, use [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack#usage) to deploy the app to Heroku. The usage section walks you through the process.
+
+## Libraries Used 💯
+- [React.js](https://reactjs.org/) for building the UI
+- [Lottie](https://github.com/airbnb/lottie-web) for adding animations
